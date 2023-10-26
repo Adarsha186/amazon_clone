@@ -1,0 +1,77 @@
+/* payment.css */
+
+/* Styles for the Payment component */
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.payment__container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.payment__section {
+    margin-bottom: 20px;
+}
+
+.payment__section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.payment__address p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.payment__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.payment__items .checkoutProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment__items .checkoutProduct img {
+    max-width: 100%;
+    height: auto;
+}
+
+.payment__details {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment__details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Add more styles for your payment form or details here */

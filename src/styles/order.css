@@ -1,0 +1,37 @@
+.orders {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.order {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.order h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.order p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.order strong {
+    font-weight: bold;
+}
